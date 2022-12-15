@@ -5,4 +5,3 @@ Pillow==9.3.0
 streamlit==1.16.0
 streamlit_cropper==0.2.0
 streamlit_drawable_canvas==0.9.2
-~treamlit==1.15.2
