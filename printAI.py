@@ -71,7 +71,7 @@ st.write('The current prompt is:  ', prompt_text)
 
 # Do something interesting with the image data and paths
 def get_image(prompt_text,mask,image):
-    openai.api_key= st.secret["APIKEY"]
+    openai.api_key= st.secrets["APIKEY"]
     response = openai.Image.create_edit(
     image=image,
     mask=mask,
