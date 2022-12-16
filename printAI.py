@@ -66,6 +66,8 @@ canvas_result = st_canvas(
     key="canvas",
 )
 
+st.markdown('##### step 4: Come up with a prompt')
+st.markdown('A prompt is a text description of an image. It is important to remember that the prompt should describe the entire image, not just a part of it. For example, if you want to turn yourself into an astronaut, you may use the outpainting tool to select your face. The prompt is what tells the model what to do with that image. A poorly-written prompt might be something like "Add an astronaut helmet and suit" this does not give the model much information to work with, and it only describes a small part of the image. A more effective prompt would be something like "A picture from the 1970s of an astronaut wearing a space suit and helmet, floating in space with planet Mars in the background." This prompt gives the model a lot more information to work with, and it allows the model to produce a more detailed and accurate image.')
 prompt_text=st.text_input('The prompt for Dall-e', '')
 st.write('The current prompt is:  ', prompt_text)
 
